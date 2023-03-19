@@ -1,0 +1,9 @@
+<div id="characters">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let character of characters">
+        <app-character-detail [character]="character"></app-character-detail>
+      </div>
+    </div>
+  </div>
+</div>
